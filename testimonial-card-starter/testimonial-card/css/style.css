@@ -1,0 +1,86 @@
+/* Put any custom CSS styles here.  */
+/* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
+
+body {
+  margin: 0;
+  font-family: "Noto Sans";
+  min-height: 100vh;
+  
+
+display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #f3f4f6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.credits {
+  color: #777;
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.credits a {
+  color: #000;
+  font-weight: bold;
+}
+
+#card{
+  border: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  width: min(92vw, 360px);
+  border-radius: 10px;
+  background-color: white;
+}
+
+
+#innercard{
+  display:inline-flex;
+  gap: 20px;
+}
+
+#innercard img{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+
+
+#details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  
+  
+}
+
+#details h1{
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#details h3{
+  font-weight: normal;
+  font-size: 0.8rem;
+  color: #777373;
+}
+#quote{
+  display:flex;
+  margin-top: 10px;
+  align-items: center;
+  text-wrap: wrap;
+  color: #777373;
+}
